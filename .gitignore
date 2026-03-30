@@ -1,0 +1,5 @@
+.idea/
+tests/
+src/ffi_parser/__pycache__/
+src/ffi_parser/tools/__pycache__/
+src/ffi_parser/main/__pycache__/

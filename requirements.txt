@@ -1,0 +1,6 @@
+pandas
+sqlalchemy
+numpy
+pyodbc
+ffi_parser
+pytest

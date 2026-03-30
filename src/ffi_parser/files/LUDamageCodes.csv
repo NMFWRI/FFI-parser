@@ -1,0 +1,28 @@
+DamageCode,Description,Notes
+10000,General Insects ,"Beetles, moths, sawflies, ants, wasps. "
+11000,Bark Beetles ,"The presence of small holes, usually exuding frass. Galleries (tunnels beneath bark). "
+17000,Gallmarker Insects ,"Abnormal growths on stems, roots, or leaves. Formed by pathogen/ parasitic infection. "
+19000,General Disease ,"Blister rust, etc. "
+21000,Root/Butt Disease ,
+22000,Stem Decay/ Canker ,"The presence of shelf-like fruiting bodies/conks. If not shelf-like fungus, use ROTT. Specify presence of conk in the comments. "
+23000,Parasitic/ Epiphytic Plants ,
+23001,Mistletoe ,"Parasitic plant that often forms a dense cluster of shoots. Can sprout from bole or branches. Affects PIPO, PIFL, PIED, PSME, PIEN, PIPU, JUxx. "
+25000,Foliage Diseases ,"Needle cast, needle blight, witches broom. Make a note of the specific damage in the comments.  "
+25001,Blight ,"Discoloration of needles, stunted growth. Needles stay attached to the tree in comparison to needle cast where they are shed. "
+27000,Broom Rusts ,Dense cluster of growth. More yellow than brooms caused by mistletoe and lacks mistletoe shoots. 
+30000,Fire ,"No % or severity needed, assessed by recording the maximum height or scorch and char.  "
+40000,"Animal Damage, Source Unknown ","Bear claw marks, porcupine or beaver chewings, deer/elk rubbings. Make a note in the comments about specific damage. "
+41010,Woodpecker ,"Holes are larger, more chiseled than beetle holes. 41010 code indicates Woodpecker, NPS letter code not as specific.  "
+50000,Abiotic Damage ,"Air pollutants, chemical damage, drought, frost. Make a note of the specific damage in the comments. "
+50008,Lightning Scar ,
+70000,Human Activities ,"Markings, girdling, cuttings, etc. Make note of the specific damage in the comments.  "
+90000,Unknown ,Used when damage cannot be identified. 
+99000,Physical Effects ,"Large, exposed roots, hollowed out bole, abnormal growth pattern, burl, epicormic sprouts from bole/limbs, sprouts at base, etc. Make a note in the comments of the specific damage. "
+99001,Broken Top ,"Live, sick, and dead trees can all have broken tops. "
+99002,Dead Top ,Only live and sick trees can have a dead top. 
+99004,Forked Top ,"Uncharacteristic, forked top, (not applicable for POTR5, Quercus sp, etc.). NPS letter codes use FORK for forking above DBH and TWIN is used for forking below DBH. "
+99006,Crook or Sweep ,Use when crooked bole or sweep is uncharacteristic for tree species. 
+99016,Foliage Loss ,Unusually sparse foliage. 
+99026,Open Wound ,
+99036,Fire Scar ,% of bole covered by fire scar.
+99037,Leaning tree ,"Should be greater than 15%, use 900 severity rating. In the comments specify the exact %. "
