@@ -2,5 +2,6 @@ pandas
 sqlalchemy
 numpy
 pyodbc
+duckdb
 ffi_parser
 pytest

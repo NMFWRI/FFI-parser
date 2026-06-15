@@ -1,6 +1,6 @@
 import pandas as pd
 import sqlalchemy.exc
-from sqlalchemy import MetaData
+from sqlalchemy import MetaData, text
 from sqlalchemy.orm import Session
 from os.path import join
 from pathlib import Path
@@ -47,6 +47,9 @@ class FFIDatabase:
     def get_foreign_keys(self):
         return self._foreign_keys
 
+    def get_engine(self):
+        return self.engine
+
     def start_session(self):
         """
         Starts a session for executing SQL statements
@@ -59,7 +62,7 @@ class FFIDatabase:
         """
         with self.start_session() as s:
             try:
-                s.execute(f"CREATE SCHEMA {schema_name}")
+                s.execute(text(f"CREATE SCHEMA {schema_name}"))
                 s.commit()
             except sqlalchemy.exc.ProgrammingError:
                 pass

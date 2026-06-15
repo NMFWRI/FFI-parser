@@ -1,20 +1,24 @@
 FFITable,NewTable
 RegistrationUnit,AdminUnit
 MacroPlot,Plot
-SampleEvent,Event
-GroundCoverSmallPlot_Attribute,GroundCover
-Canopy_Densiometer_Attribute,CanopyDensiometer
-AerialCover_Attribute,AerialCover
-SurfaceFuels_1000Hr_Attribute,Fuels1000Hr
-SurfaceFuels_Duff_Litter_Attribute,FuelsDuffLitter
-SurfaceFuels_Vegetation_Attribute,FuelsVegetation
-SurfaceFuels_Fine_Attribute,FuelsFine
+SampleEvent,SampleEvent
+GroundCoverSmallPlot,GroundCover
+Canopy - Densiometer,Canopy
+Aerial Cover,AerialCover
+Surface Fuels - 1000Hr,Fuels1000Hr
+Surface Fuels - Duff_Litter,FuelsDuffLitter
+Surface Fuels - Vegetation,FuelsVegetation
+Surface Fuels - Fine,FuelsFine
 ProjectUnit,Project
-Trees_Individuals_Attribute,TreesIndv
-Trees_Saplings_DiameterClass_Attribute,TreesSaplings
-Trees_Seedlings_HeightClass_Attribute,TreesSeedlings
-PlotInfoWitTreesComments3_Attribute,WitnessTree
+Trees - Individuals,Trees
+Trees - Saplings (Diameter Class),Saplings
+Trees - Seedlings (Height Class),Seedlings
+Plot Info Wit Trees Comments_23,WitnessTree
+Plot Info Wit Trees Comments3,WitnessTree
 Transect,Transect
 ProjectVisit,ProjectVisit
-TreeDamage,TreeDamage
-DisturbanceHistory_Attribute,DisturbanceHistory
+Disturbance History,Disturbance
+Cover - Points,CoverPoints
+Cover - Species Composition,CoverSpecies
+Transect,
+ProjectVisit,
