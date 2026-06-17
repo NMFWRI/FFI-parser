@@ -345,7 +345,7 @@ class FFIFile:
 
             # Drop all rows with null EventIDs
             subset.dropna(subset=['SampleData_SampleEvent_GUID'], inplace=True)
-            subset.drop(["AttributeRow_DataRow_GUID", "Index"], axis=1, inplace=True)
+            subset.drop(["AttributeRow_DataRow_GUID", "Index"], axis=1, inplace=True, errors='ignore')
             # subset.rename(columns={"SampleData_SampleEvent_GUID": "EventID"}, inplace=True)
 
             # Assign table
